@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SchoolBranding from "./school-branding";
 
 export const metadata: Metadata = {
   title: "Noria | Gestion scolaire",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body><SchoolBranding />{children}</body>
     </html>
   );
 }

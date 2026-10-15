@@ -20,6 +20,7 @@ export default function Home() {
           <h1>Le lien entre l’école et <em>chaque famille.</em></h1>
           <p className="hero-text">Noria réunit l’administration, les classes, les élèves et les parents dans un espace calme, lisible et sécurisé.</p>
           <div className="hero-actions">
+            <a className="text-action" href="/connexion/eleve">Espace élève / parent <span aria-hidden="true">→</span></a>
             <a className="primary-action" href="/connexion">Accéder à mon espace <span aria-hidden="true">→</span></a>
             <a className="text-action" href="#vision">Découvrir la plateforme <span aria-hidden="true">↓</span></a>
           </div>
